@@ -1,0 +1,63 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+main>img {
+    justify-self: center;
+    width: 100%;
+}
+h2 {
+    font-size: 99pt;
+}
+#planet-description {
+    margin-bottom: 60px;
+}
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.title-section {
+    color: #848fab;
+}
+#avg-planet-distance,
+#est-planet-travel-time{
+    font-size: 40pt;
+    display: flex;
+    align-items: baseline;
+}
+#avg-planet-distance span,
+#est-planet-travel-time span{
+    margin-left: 3px;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+ul#planet-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+    background: #363858;
+    border-radius: 9px;
+}
+
+li[active] {
+    border-bottom: 2px solid;
+}
+li:hover{
+    border-bottom: 2px dotted;
+}
+li {
+    text-transform: uppercase;
+    color: #848fab;
+    cursor: pointer;
+}
+
+a {
+    color: #848fab;
+    text-decoration: none;
+}
+nav {
+    margin-bottom: 30px;
+}
